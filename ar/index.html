@@ -1,23 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>عبدالله مبيض | الموقع الشخصي</title>
-  <meta name="robots" content="noindex, nofollow" />
-  <link rel="stylesheet" href="/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>abd1llh</title>
+
+  <style>
+    :root {
+      --bg: #000000;
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.6);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Text",
+        "Helvetica Neue",
+        "Noto Sans Arabic",
+        "Arial",
+        sans-serif;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      letter-spacing: -0.01em;
+    }
+
+    .title {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 500;
+    }
+
+    .subtitle {
+      margin-top: 0.8rem;
+      font-size: 1rem;
+      color: var(--muted);
+    }
+  </style>
 </head>
+
 <body>
-  <main class="page">
-    <h1>قريبًا…</h1>
-    <p>نسخة العربية تحت التجهيز. ارجع للإنجليزي مؤقتًا:</p>
-    <p><a href="/en/">English</a></p>
-  </main>
-
-  <footer class="footer">
-    <small>© <span id="year"></span> Abdallah Mobaid. جميع الحقوق محفوظة.</small>
-  </footer>
-
-  <script src="/app.js"></script>
+  <div class="container">
+    <div class="title">قريبًا.</div>
+    <div class="subtitle">شيء مميز قادم.</div>
+  </div>
 </body>
 </html>
